@@ -19,3 +19,4 @@ Este projeto é uma API ASP.NET para cálculo de investimentos em CDB.
 
 ## TODO Front-End:
 colocar endereço da API em arquivo settings
+passar os métodos para o serviço
