@@ -45,7 +45,7 @@ export class CalculadoraCDBComponent {
       Meses: this.prazo
     };
 
-    this.http.post<ResultadoCDB>('https://localhost:44350/api/calculo/cdb/', dados)
+    this.http.post<ResultadoCDB>('https://localhost:44301/api/calculo/cdb/', dados)
       .subscribe({
         next: (response) => {
           if (response.Erro) {
